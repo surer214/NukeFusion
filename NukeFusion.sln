@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{45A7819A-C39B-4F97-B621-299B5589F8E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooStock", "Samples\YahooStock\YahooStock.csproj", "{D349B3C8-6268-463D-B33F-7B41D8909A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holidays", "Samples\Holidays\Holidays.csproj", "{FB993B21-D71F-4662-A54A-07E4D37B634A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scraping", "Samples\Scraping\Scraping.csproj", "{20F84B1C-A2D0-4B00-996E-D5F5E7E0AB44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D349B3C8-6268-463D-B33F-7B41D8909A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D349B3C8-6268-463D-B33F-7B41D8909A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D349B3C8-6268-463D-B33F-7B41D8909A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D349B3C8-6268-463D-B33F-7B41D8909A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB993B21-D71F-4662-A54A-07E4D37B634A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB993B21-D71F-4662-A54A-07E4D37B634A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB993B21-D71F-4662-A54A-07E4D37B634A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB993B21-D71F-4662-A54A-07E4D37B634A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20F84B1C-A2D0-4B00-996E-D5F5E7E0AB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F84B1C-A2D0-4B00-996E-D5F5E7E0AB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F84B1C-A2D0-4B00-996E-D5F5E7E0AB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F84B1C-A2D0-4B00-996E-D5F5E7E0AB44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D349B3C8-6268-463D-B33F-7B41D8909A75} = {45A7819A-C39B-4F97-B621-299B5589F8E5}
+		{FB993B21-D71F-4662-A54A-07E4D37B634A} = {45A7819A-C39B-4F97-B621-299B5589F8E5}
+		{20F84B1C-A2D0-4B00-996E-D5F5E7E0AB44} = {45A7819A-C39B-4F97-B621-299B5589F8E5}
+	EndGlobalSection
+EndGlobal
